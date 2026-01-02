@@ -61,13 +61,13 @@ ln -s /absolute/path/to/convert-markdown-to-docs-or-pdf/markdown-to-docs-pdf \
 
 ### For Qwen CLI
 ```
-ln -s markdown-to-docs-pdf ~/.qwen-cli/skills/markdown-to-docs-pdf
+ln -s markdown-to-docs-pdf ~/.qwen/skills/markdown-to-docs-pdf
 ```
 
 Or with absolute path:
 ```
 ln -s /absolute/path/to/convert-markdown-to-docs-or-pdf/markdown-to-docs-pdf \
-  ~/.qwen-cli/skills/markdown-to-docs-pdf
+  ~/.qwen/skills/markdown-to-docs-pdf
 ```
 
 ### For iFlow
