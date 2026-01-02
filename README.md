@@ -69,6 +69,5 @@ ln -s /absolute/path/to/convert-markdown-to-docx-or-pdf/markdown-to-docx-pdf \
 ```
 
 ## Notes
-- `--pdf-engine` can be passed if you need a specific Pandoc engine (e.g., `wkhtmltopdf`, `tectonic`).
-- If Pandoc is already installed, you can run the script with `python3` directly.
+- PDF conversion uses LaTeX.
 # convert-markdown-to-docx-or-pdf-agent-skill
