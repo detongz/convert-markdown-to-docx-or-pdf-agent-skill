@@ -38,6 +38,11 @@ uvx --from pypandoc-binary python scripts/convert_markdown.py input.md --to docx
 ## Install as a Skill
 Symlink the skill folder into your Codex skills directory:
 ```
+ln -s markdown-to-docs-pdf ~/.codex/skills/markdown-to-docs-pdf
+```
+
+If you prefer an absolute path:
+```
 ln -s /absolute/path/to/convert-markdown-to-docs-or-pdf/markdown-to-docs-pdf \
   ~/.codex/skills/markdown-to-docs-pdf
 ```
