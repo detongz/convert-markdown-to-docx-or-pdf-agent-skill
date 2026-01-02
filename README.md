@@ -1,12 +1,6 @@
 # Markdown to DOCX/PDF Skill
 
-A Codex skill that converts Markdown files to DOCX or PDF using Pandoc via a bundled Python script. Designed to run with `uvx` + `pypandoc-binary` so Pandoc is available without a system install.
-
-## Features
-- Convert `.md` to `.docx` or `.pdf`
-- Optional DOCX template via `--reference-doc`
-- Optional TOC via `--toc`
-- Metadata via `--metadata key=value`
+A skill that converts Markdown files to DOCX or PDF using Pandoc via a bundled Python script. Designed to run with `uvx` + `pypandoc-binary` so Pandoc is available without a system install.
 
 ## Repository Layout
 ```
