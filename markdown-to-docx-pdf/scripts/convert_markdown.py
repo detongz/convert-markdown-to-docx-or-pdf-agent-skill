@@ -19,11 +19,37 @@ def build_output_path(input_path, output, target):
     return input_path.with_suffix(f".{target}")
 
 
+def metadata_to_dict(metadata):
+    data = {}
+    for item in metadata:
+        key, value = item.split("=", 1)
+        data[key] = value
+    return data
+
+
+def apply_pdf_defaults(metadata, input_path):
+    defaults = {
+        "mainfont": "PingFang SC",
+        "sansfont": "PingFang SC",
+        "monofont": "Menlo",
+        "title": input_path.stem,
+    }
+    metadata_map = metadata_to_dict(metadata)
+    for key, value in defaults.items():
+        if key not in metadata_map:
+            metadata.append(f"{key}={value}")
+
+
 def convert_markdown(input_path, output_path, target, reference_doc, pdf_engine, toc, metadata):
     try:
         import pypandoc
     except Exception as exc:
         raise RuntimeError("pypandoc is required. Try: uvx --from pypandoc-binary python scripts/convert_markdown.py ...") from exc
+
+    if target == "pdf":
+        if not pdf_engine:
+            pdf_engine = "xelatex"
+        apply_pdf_defaults(metadata, input_path)
 
     extra_args = ["--from", "markdown", "--standalone"]
     if toc:

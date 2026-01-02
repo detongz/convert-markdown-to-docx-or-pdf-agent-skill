@@ -1,4 +1,4 @@
-# Markdown to Docs/PDF Skill
+# Markdown to DOCX/PDF Skill
 
 A Codex skill that converts Markdown files to DOCX or PDF using Pandoc via a bundled Python script. Designed to run with `uvx` + `pypandoc-binary` so Pandoc is available without a system install.
 
@@ -10,7 +10,7 @@ A Codex skill that converts Markdown files to DOCX or PDF using Pandoc via a bun
 
 ## Repository Layout
 ```
-markdown-to-docs-pdf/
+markdown-to-docx-pdf/
   SKILL.md
   scripts/
     convert_markdown.py
@@ -32,46 +32,46 @@ Simply tell the AI what you want:
 
 ### For Codex
 ```
-ln -s markdown-to-docs-pdf ~/.codex/skills/markdown-to-docs-pdf
+ln -s markdown-to-docx-pdf ~/.codex/skills/markdown-to-docx-pdf
 ```
 
 Or with absolute path:
 ```
-ln -s /absolute/path/to/convert-markdown-to-docs-or-pdf/markdown-to-docs-pdf \
-  ~/.codex/skills/markdown-to-docs-pdf
+ln -s /absolute/path/to/convert-markdown-to-docs-or-pdf/markdown-to-docx-pdf \
+  ~/.codex/skills/markdown-to-docx-pdf
 ```
 
 ### For Claude Code
 ```
-ln -s markdown-to-docs-pdf ~/.claude/skills/markdown-to-docs-pdf
+ln -s markdown-to-docx-pdf ~/.claude/skills/markdown-to-docx-pdf
 ```
 
 Or with absolute path:
 ```
-ln -s /absolute/path/to/convert-markdown-to-docs-or-pdf/markdown-to-docs-pdf \
-  ~/.claude/skills/markdown-to-docs-pdf
+ln -s /absolute/path/to/convert-markdown-to-docs-or-pdf/markdown-to-docx-pdf \
+  ~/.claude/skills/markdown-to-docx-pdf
 ```
 
 ### For Qwen CLI
 ```
-ln -s markdown-to-docs-pdf ~/.qwen/skills/markdown-to-docs-pdf
+ln -s markdown-to-docx-pdf ~/.qwen/skills/markdown-to-docx-pdf
 ```
 
 Or with absolute path:
 ```
-ln -s /absolute/path/to/convert-markdown-to-docs-or-pdf/markdown-to-docs-pdf \
-  ~/.qwen/skills/markdown-to-docs-pdf
+ln -s /absolute/path/to/convert-markdown-to-docs-or-pdf/markdown-to-docx-pdf \
+  ~/.qwen/skills/markdown-to-docx-pdf
 ```
 
 ### For iFlow
 ```
-ln -s markdown-to-docs-pdf ~/.iflow/skills/markdown-to-docs-pdf
+ln -s markdown-to-docx-pdf ~/.iflow/skills/markdown-to-docx-pdf
 ```
 
 Or with absolute path:
 ```
-ln -s /absolute/path/to/convert-markdown-to-docs-or-pdf/markdown-to-docs-pdf \
-  ~/.iflow/skills/markdown-to-docs-pdf
+ln -s /absolute/path/to/convert-markdown-to-docs-or-pdf/markdown-to-docx-pdf \
+  ~/.iflow/skills/markdown-to-docx-pdf
 ```
 
 ## Notes
