@@ -37,7 +37,7 @@ ln -s markdown-to-docx-pdf ~/.codex/skills/markdown-to-docx-pdf
 
 Or with absolute path:
 ```
-ln -s /absolute/path/to/convert-markdown-to-docs-or-pdf/markdown-to-docx-pdf \
+ln -s /absolute/path/to/convert-markdown-to-docx-or-pdf/markdown-to-docx-pdf \
   ~/.codex/skills/markdown-to-docx-pdf
 ```
 
@@ -48,7 +48,7 @@ ln -s markdown-to-docx-pdf ~/.claude/skills/markdown-to-docx-pdf
 
 Or with absolute path:
 ```
-ln -s /absolute/path/to/convert-markdown-to-docs-or-pdf/markdown-to-docx-pdf \
+ln -s /absolute/path/to/convert-markdown-to-docx-or-pdf/markdown-to-docx-pdf \
   ~/.claude/skills/markdown-to-docx-pdf
 ```
 
@@ -59,7 +59,7 @@ ln -s markdown-to-docx-pdf ~/.qwen/skills/markdown-to-docx-pdf
 
 Or with absolute path:
 ```
-ln -s /absolute/path/to/convert-markdown-to-docs-or-pdf/markdown-to-docx-pdf \
+ln -s /absolute/path/to/convert-markdown-to-docx-or-pdf/markdown-to-docx-pdf \
   ~/.qwen/skills/markdown-to-docx-pdf
 ```
 
@@ -70,7 +70,7 @@ ln -s markdown-to-docx-pdf ~/.iflow/skills/markdown-to-docx-pdf
 
 Or with absolute path:
 ```
-ln -s /absolute/path/to/convert-markdown-to-docs-or-pdf/markdown-to-docx-pdf \
+ln -s /absolute/path/to/convert-markdown-to-docx-or-pdf/markdown-to-docx-pdf \
   ~/.iflow/skills/markdown-to-docx-pdf
 ```
 
