@@ -36,15 +36,49 @@ uvx --from pypandoc-binary python scripts/convert_markdown.py input.md --to docx
 ```
 
 ## Install as a Skill
-Symlink the skill folder into your Codex skills directory:
+
+### For Codex
 ```
 ln -s markdown-to-docs-pdf ~/.codex/skills/markdown-to-docs-pdf
 ```
 
-If you prefer an absolute path:
+Or with absolute path:
 ```
 ln -s /absolute/path/to/convert-markdown-to-docs-or-pdf/markdown-to-docs-pdf \
   ~/.codex/skills/markdown-to-docs-pdf
+```
+
+### For Claude Code
+```
+ln -s markdown-to-docs-pdf ~/.claude/skills/markdown-to-docs-pdf
+```
+
+Or with absolute path:
+```
+ln -s /absolute/path/to/convert-markdown-to-docs-or-pdf/markdown-to-docs-pdf \
+  ~/.claude/skills/markdown-to-docs-pdf
+```
+
+### For Qwen CLI
+```
+ln -s markdown-to-docs-pdf ~/.qwen-cli/skills/markdown-to-docs-pdf
+```
+
+Or with absolute path:
+```
+ln -s /absolute/path/to/convert-markdown-to-docs-or-pdf/markdown-to-docs-pdf \
+  ~/.qwen-cli/skills/markdown-to-docs-pdf
+```
+
+### For iFlow
+```
+ln -s markdown-to-docs-pdf ~/.iflow/skills/markdown-to-docs-pdf
+```
+
+Or with absolute path:
+```
+ln -s /absolute/path/to/convert-markdown-to-docs-or-pdf/markdown-to-docs-pdf \
+  ~/.iflow/skills/markdown-to-docs-pdf
 ```
 
 ## Notes
