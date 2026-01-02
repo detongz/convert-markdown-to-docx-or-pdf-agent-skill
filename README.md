@@ -17,22 +17,15 @@ markdown-to-docs-pdf/
 ```
 
 ## Usage
-### DOCX
-```
-uvx --from pypandoc-binary python scripts/convert_markdown.py input.md --to docx
-```
 
-### PDF
-```
-uvx --from pypandoc-binary python scripts/convert_markdown.py input.md --to pdf
-```
+### Natural Language Prompts
 
-### With options
+Simply tell the AI what you want:
+
 ```
-uvx --from pypandoc-binary python scripts/convert_markdown.py input.md --to docx \
-  --reference-doc template.docx \
-  --toc \
-  --metadata title="My Doc"
+把这个markdown给我搞成pdf
+把这个markdown转换成word文档
+帮我把这个md文件导出为pdf，带上目录
 ```
 
 ## Install as a Skill
