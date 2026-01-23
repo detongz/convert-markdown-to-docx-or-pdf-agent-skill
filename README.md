@@ -2,6 +2,9 @@
 
 A skill that converts Markdown files to DOCX or PDF using Pandoc via a bundled Python script. Designed to run with `uvx` + `pypandoc-binary` so Pandoc is available without a system install.
 
+# Install
+```npx skills add https://github.com/detongz/convert-markdown-to-docx-or-pdf-agent-skill```
+
 ## Repository Layout
 ```
 markdown-to-docx-pdf/
